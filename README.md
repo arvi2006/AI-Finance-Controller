@@ -18,6 +18,77 @@ The AI Finance Controller processes these cases in stages. It first normalizes t
 
 The project is designed as a transparent buildathon and engineering demonstration: every major result is written to CSV, the baseline is evaluated against ground truth, and unresolved exceptions remain visible rather than being artificially resolved.
 
+## Quick Start
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/arvi2006/AI-Finance-Controller.git
+cd AI-Finance-Controller
+```
+
+### 2. Create a virtual environment
+
+```bash
+python -m venv .venv
+```
+
+### 3. Activate the virtual environment
+
+For Windows:
+
+```text
+.venv\Scripts\activate
+```
+
+After activation, the terminal should show something similar to:
+
+```text
+(.venv) C:\Users\<username>\AI-Finance-Controller>
+```
+
+### 4. Install dependencies
+
+```text
+pip install -r requirements.txt
+```
+
+### 5. Run the complete application
+
+```text
+python run.py
+```
+
+This runs the seven pipeline stages in order and then launches the Streamlit dashboard. The AI investigation stage uses the local Ollama service when available; failed or unavailable AI investigations remain in human review.
+
+### 6. Run automated tests
+
+```text
+pytest -v
+```
+
+The test suite uses deterministic fixtures and mocks Ollama requests, so normal test execution does not require Ollama.
+
+### Optional launcher modes
+
+Run the pipeline without starting Streamlit:
+
+```text
+python run.py --pipeline
+```
+
+Launch only the dashboard using the existing generated outputs:
+
+```text
+python run.py --app
+```
+
+Run the pipeline without the local AI resolver:
+
+```text
+python run.py --pipeline --skip-ai
+```
+
 ## Architecture
 
 ```mermaid

@@ -252,4 +252,6 @@ Local secrets, virtual environments, Python bytecode, test caches, logs, and tem
 
 ## License
 
-No license has been specified for this project yet.
+This project is licensed under the MIT License.
+
+See the [LICENSE](LICENSE) file for the full license text.

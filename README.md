@@ -260,6 +260,30 @@ The dashboard provides six operational views:
 
 Dashboard values are loaded dynamically from generated CSV files. The application joins related data by `invoice_id`, handles missing optional outputs with user-facing messages, and does not make Ollama calls.
 
+## Dashboard
+
+The Streamlit dashboard provides a visual interface for monitoring the AI Finance Controller pipeline.
+
+### Overview
+
+![AI Finance Controller Dashboard](docs/screenshots/dashboard.png)
+
+### Reconciliation
+
+![Reconciliation Results](docs/screenshots/reconciliation.png)
+
+### Exception Prioritization
+
+![Exception Prioritization](docs/screenshots/exceptions.png)
+
+### AI Investigation
+
+![AI Investigation](docs/screenshots/ai-investigation.png)
+
+### Cash Forecast
+
+![Cash Forecast](docs/screenshots/cash-forecast.png)
+
 ## Automated Testing
 
 Run the complete suite:

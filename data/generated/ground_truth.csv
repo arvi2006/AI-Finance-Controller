@@ -1,0 +1,501 @@
+invoice_id,customer,expected_status
+INV-00001,"Rodriguez, Figueroa and Sanchez",MATCHED
+INV-00002,Doyle Ltd,MATCHED
+INV-00003,"Mcclain, Miller and Henderson",AMOUNT_MISMATCH
+INV-00004,Davis and Sons,AMOUNT_MISMATCH
+INV-00005,"Guzman, Hoffman and Baldwin",MATCHED
+INV-00006,"Gardner, Robinson and Lawrence",TIMING_DIFFERENCE
+INV-00007,Blake and Sons,MATCHED
+INV-00008,"Henderson, Ramirez and Lewis",MATCHED
+INV-00009,Garcia-James,MATCHED
+INV-00010,Abbott-Munoz,MATCHED
+INV-00011,Blair PLC,TIMING_DIFFERENCE
+INV-00012,Dudley Group,MATCHED
+INV-00013,Arnold Ltd,TIMING_DIFFERENCE
+INV-00014,"Mcclure, Ward and Lee",AMOUNT_MISMATCH
+INV-00015,Williams and Sons,MATCHED
+INV-00016,Galloway-Wyatt,AMOUNT_MISMATCH
+INV-00017,James Group,MATCHED
+INV-00018,"Flowers, Martin and Kelly",AMOUNT_MISMATCH
+INV-00019,"Adams, Zuniga and Wong",MATCHED
+INV-00020,"Reid, Ferguson and Sanchez",SPLIT_PAYMENT
+INV-00021,Gray-Mayo,MISSING_PAYMENT
+INV-00022,"Watts, Robinson and Nguyen",SPLIT_PAYMENT
+INV-00023,Perez Inc,DUPLICATE
+INV-00024,Morales-Jones,AMOUNT_MISMATCH
+INV-00025,"Walter, Edwards and Rios",SPLIT_PAYMENT
+INV-00026,Wilkerson-Day,MATCHED
+INV-00027,Baker and Sons,MATCHED
+INV-00028,"Hoffman, Baker and Richards",MATCHED
+INV-00029,"Ross, Robinson and Bright",TIMING_DIFFERENCE
+INV-00030,"Snyder, Campos and Callahan",MATCHED
+INV-00031,Burton Ltd,MATCHED
+INV-00032,Carlson-Cruz,SPLIT_PAYMENT
+INV-00033,"Ferrell, Rice and Maddox",DUPLICATE
+INV-00034,Frazier Inc,TIMING_DIFFERENCE
+INV-00035,"Dyer, Potter and Mack",MATCHED
+INV-00036,Rodriguez-Graham,MATCHED
+INV-00037,Smith-Bowen,MATCHED
+INV-00038,"Baker, Mason and White",MATCHED
+INV-00039,Harrell LLC,MATCHED
+INV-00040,"Romero, Gonzalez and Brooks",MATCHED
+INV-00041,Ryan PLC,MATCHED
+INV-00042,George Group,SPLIT_PAYMENT
+INV-00043,Rodriguez LLC,MISSING_PAYMENT
+INV-00044,Allen-Allen,AMOUNT_MISMATCH
+INV-00045,"Arroyo, Miller and Tucker",MATCHED
+INV-00046,Spence PLC,MATCHED
+INV-00047,Anderson Group,MISSING_PAYMENT
+INV-00048,"Martin, Rose and Obrien",MATCHED
+INV-00049,Hickman Ltd,MATCHED
+INV-00050,"Harris, Collins and Carney",MATCHED
+INV-00051,"Brooks, Lam and Hayes",MATCHED
+INV-00052,Walker LLC,MATCHED
+INV-00053,Chapman and Sons,MATCHED
+INV-00054,"Robinson, Jones and Welch",SPLIT_PAYMENT
+INV-00055,Jones Inc,TIMING_DIFFERENCE
+INV-00056,Jones-Young,MATCHED
+INV-00057,"Washington, Ryan and Cummings",MATCHED
+INV-00058,"Johnston, Sanchez and Kennedy",TIMING_DIFFERENCE
+INV-00059,Lee-Davis,MATCHED
+INV-00060,Gomez-Jenkins,MATCHED
+INV-00061,"Brown, Valdez and Lucas",MATCHED
+INV-00062,Powell LLC,MATCHED
+INV-00063,Wright and Sons,DUPLICATE
+INV-00064,"West, Henderson and Ramirez",SPLIT_PAYMENT
+INV-00065,Baxter Inc,MATCHED
+INV-00066,Morton-Chase,DUPLICATE
+INV-00067,Williams PLC,MATCHED
+INV-00068,Novak and Sons,SPLIT_PAYMENT
+INV-00069,Russell Group,TIMING_DIFFERENCE
+INV-00070,Hancock Inc,TIMING_DIFFERENCE
+INV-00071,Gray Group,AMOUNT_MISMATCH
+INV-00072,House-Glover,MISSING_PAYMENT
+INV-00073,Henderson-Bernard,MATCHED
+INV-00074,"Stanley, Tucker and Lee",MISSING_PAYMENT
+INV-00075,Novak PLC,MATCHED
+INV-00076,"Daniels, Adkins and Brown",MATCHED
+INV-00077,"Woods, Calhoun and Schmidt",AMOUNT_MISMATCH
+INV-00078,Yu Inc,MATCHED
+INV-00079,Jones Inc,MATCHED
+INV-00080,"Hensley, Powell and David",MATCHED
+INV-00081,"Sanchez, Wheeler and Harvey",SPLIT_PAYMENT
+INV-00082,Sandoval-Cunningham,TIMING_DIFFERENCE
+INV-00083,Donovan-Harris,MATCHED
+INV-00084,"Edwards, Baker and Anderson",AMOUNT_MISMATCH
+INV-00085,"Evans, Stewart and Walton",MATCHED
+INV-00086,Smith PLC,MATCHED
+INV-00087,"Ferrell, Jones and Lewis",MATCHED
+INV-00088,Anderson-Bailey,MATCHED
+INV-00089,Suarez LLC,MATCHED
+INV-00090,Moore-Bass,MATCHED
+INV-00091,"Turner, Riggs and Roman",MATCHED
+INV-00092,"Smith, Montoya and Evans",MATCHED
+INV-00093,"Garcia, Humphrey and Baker",SPLIT_PAYMENT
+INV-00094,Newton and Sons,MISSING_PAYMENT
+INV-00095,Campbell-Clark,MATCHED
+INV-00096,Harris-Walters,DUPLICATE
+INV-00097,Wagner-King,TIMING_DIFFERENCE
+INV-00098,Davis Group,SPLIT_PAYMENT
+INV-00099,Williams-Cook,DUPLICATE
+INV-00100,Walsh LLC,DUPLICATE
+INV-00101,Figueroa PLC,MATCHED
+INV-00102,"Patterson, Smith and Jones",TIMING_DIFFERENCE
+INV-00103,"Mckee, Gardner and Davenport",MISSING_PAYMENT
+INV-00104,"Tran, Jordan and Williams",MATCHED
+INV-00105,Nolan-Flynn,MATCHED
+INV-00106,Nolan and Sons,SPLIT_PAYMENT
+INV-00107,"Wright, Garcia and Deleon",SPLIT_PAYMENT
+INV-00108,Dickson-Brady,MATCHED
+INV-00109,Hancock and Sons,SPLIT_PAYMENT
+INV-00110,Johnson-Doyle,MATCHED
+INV-00111,Patton-Jenkins,SPLIT_PAYMENT
+INV-00112,"Shields, Cochran and Adams",SPLIT_PAYMENT
+INV-00113,"Rodriguez, Brennan and Garrison",MATCHED
+INV-00114,Gonzalez Group,MISSING_PAYMENT
+INV-00115,Torres-Pope,SPLIT_PAYMENT
+INV-00116,Walker Ltd,MATCHED
+INV-00117,Ross LLC,AMOUNT_MISMATCH
+INV-00118,Rasmussen LLC,MISSING_PAYMENT
+INV-00119,May-Ross,AMOUNT_MISMATCH
+INV-00120,"Rivera, Johnson and Wiley",MATCHED
+INV-00121,White-Estes,MATCHED
+INV-00122,Johnson-Carlson,MATCHED
+INV-00123,Chandler-Edwards,MISSING_PAYMENT
+INV-00124,"Joyce, Wilson and Lam",MISSING_PAYMENT
+INV-00125,Scott Ltd,MATCHED
+INV-00126,Smith-Frost,MATCHED
+INV-00127,"Mcdaniel, Bentley and Mclaughlin",MATCHED
+INV-00128,Diaz Inc,MATCHED
+INV-00129,"Mccall, Hanson and Alvarado",MISSING_PAYMENT
+INV-00130,Cortez LLC,MATCHED
+INV-00131,"Parker, Ortiz and Powell",MATCHED
+INV-00132,Spencer-Lee,MATCHED
+INV-00133,"Bentley, Byrd and Orr",MATCHED
+INV-00134,"Carroll, Sullivan and Bass",TIMING_DIFFERENCE
+INV-00135,Mitchell-Jordan,TIMING_DIFFERENCE
+INV-00136,"Lawson, Morris and Ramos",TIMING_DIFFERENCE
+INV-00137,"Lewis, Kennedy and Santana",MATCHED
+INV-00138,"Jackson, Miller and Robertson",DUPLICATE
+INV-00139,"Harvey, Davis and Crane",MATCHED
+INV-00140,Chambers and Sons,MATCHED
+INV-00141,Hernandez Inc,MATCHED
+INV-00142,Riggs PLC,MATCHED
+INV-00143,Gibson Ltd,MATCHED
+INV-00144,"Lee, Horton and Snyder",MATCHED
+INV-00145,Hernandez Ltd,TIMING_DIFFERENCE
+INV-00146,Stafford Inc,SPLIT_PAYMENT
+INV-00147,Robinson-Brock,TIMING_DIFFERENCE
+INV-00148,"Holmes, Williams and Wright",MATCHED
+INV-00149,Bryant Group,MATCHED
+INV-00150,"Schmidt, Hansen and Stewart",MATCHED
+INV-00151,Salazar-Ball,TIMING_DIFFERENCE
+INV-00152,"Simmons, Meadows and Griffin",SPLIT_PAYMENT
+INV-00153,Manning Group,AMOUNT_MISMATCH
+INV-00154,Green-Wright,MATCHED
+INV-00155,"Ramirez, Strickland and Washington",MATCHED
+INV-00156,Hill Inc,SPLIT_PAYMENT
+INV-00157,"Mitchell, Nelson and Flores",MATCHED
+INV-00158,"Miller, Hernandez and Reyes",MATCHED
+INV-00159,Mccarthy Inc,MATCHED
+INV-00160,Russell-Daniels,MATCHED
+INV-00161,Brown-Wall,MATCHED
+INV-00162,Stein-Silva,MATCHED
+INV-00163,"Smith, Gilmore and Johnston",AMOUNT_MISMATCH
+INV-00164,Smith-Bell,AMOUNT_MISMATCH
+INV-00165,Castaneda-Ashley,SPLIT_PAYMENT
+INV-00166,Medina-Navarro,MATCHED
+INV-00167,"Hurst, Freeman and Nelson",MATCHED
+INV-00168,Johnson-Rogers,MATCHED
+INV-00169,"Yates, Ramsey and Pittman",MATCHED
+INV-00170,Hooper PLC,MATCHED
+INV-00171,Meadows PLC,MATCHED
+INV-00172,"Alvarado, Miller and Patterson",TIMING_DIFFERENCE
+INV-00173,White-Green,MATCHED
+INV-00174,Lewis-Murphy,MATCHED
+INV-00175,Ramirez-Bean,MATCHED
+INV-00176,King-Miller,TIMING_DIFFERENCE
+INV-00177,Curry Inc,MISSING_PAYMENT
+INV-00178,Walker-Jones,MATCHED
+INV-00179,"Williams, Johnson and Wright",MATCHED
+INV-00180,Howell and Sons,AMOUNT_MISMATCH
+INV-00181,Wells Inc,MATCHED
+INV-00182,"Gould, Marshall and Scott",DUPLICATE
+INV-00183,Jackson-Lawson,MATCHED
+INV-00184,"Higgins, Strickland and Martin",MATCHED
+INV-00185,Rodriguez-Johnson,MATCHED
+INV-00186,Johnston-Odonnell,MATCHED
+INV-00187,Sanders-Espinoza,MATCHED
+INV-00188,Vargas Ltd,MATCHED
+INV-00189,Garcia LLC,MATCHED
+INV-00190,"Burke, Martinez and Riggs",MISSING_PAYMENT
+INV-00191,Reed Group,DUPLICATE
+INV-00192,"Wood, Hunter and Peterson",SPLIT_PAYMENT
+INV-00193,Short-Garcia,MATCHED
+INV-00194,Reid-Poole,MATCHED
+INV-00195,"Hernandez, Thompson and Boyd",MATCHED
+INV-00196,"Nelson, Morton and Medina",SPLIT_PAYMENT
+INV-00197,Marshall-Petersen,MATCHED
+INV-00198,"Adams, Christian and Rivas",MATCHED
+INV-00199,Ramirez Group,MATCHED
+INV-00200,Christensen PLC,MATCHED
+INV-00201,"Barnett, Rogers and Snyder",MATCHED
+INV-00202,White-Lewis,MATCHED
+INV-00203,Peterson-Beard,DUPLICATE
+INV-00204,"Beard, Peters and Black",MATCHED
+INV-00205,Miller Ltd,AMOUNT_MISMATCH
+INV-00206,Freeman-Chang,SPLIT_PAYMENT
+INV-00207,"Alvarez, Joseph and West",MATCHED
+INV-00208,Davis and Sons,MATCHED
+INV-00209,Holt-Torres,MATCHED
+INV-00210,"Wood, Tran and Cooper",MISSING_PAYMENT
+INV-00211,"Pierce, Bell and Chavez",MATCHED
+INV-00212,King-Martinez,MISSING_PAYMENT
+INV-00213,Stewart Ltd,MATCHED
+INV-00214,"Tapia, Vaughn and Lee",SPLIT_PAYMENT
+INV-00215,"Washington, Hardy and Bray",DUPLICATE
+INV-00216,"Carlson, Hooper and Wall",MATCHED
+INV-00217,Perez-White,MATCHED
+INV-00218,Erickson and Sons,AMOUNT_MISMATCH
+INV-00219,Williams-Brown,MATCHED
+INV-00220,Terry-Martinez,SPLIT_PAYMENT
+INV-00221,Garcia-Smith,MATCHED
+INV-00222,Harrison-Alexander,MISSING_PAYMENT
+INV-00223,Sheppard LLC,SPLIT_PAYMENT
+INV-00224,Wilson-Jones,MATCHED
+INV-00225,Jones-Soto,MATCHED
+INV-00226,Hernandez PLC,TIMING_DIFFERENCE
+INV-00227,Miller-Wright,MATCHED
+INV-00228,"Duran, Obrien and Gibbs",MATCHED
+INV-00229,Rowe Group,MATCHED
+INV-00230,Kerr-Evans,TIMING_DIFFERENCE
+INV-00231,"Branch, Torres and Oliver",MATCHED
+INV-00232,"Choi, Garcia and Farmer",DUPLICATE
+INV-00233,"Clark, Guerrero and Moore",MATCHED
+INV-00234,Arnold and Sons,SPLIT_PAYMENT
+INV-00235,Ortiz Ltd,MATCHED
+INV-00236,"Harrison, Johnson and Roberts",MATCHED
+INV-00237,Warner-Gibson,AMOUNT_MISMATCH
+INV-00238,"Hall, Baker and Moody",MATCHED
+INV-00239,"Guerrero, Peck and Coleman",MATCHED
+INV-00240,"Walker, Hernandez and Baker",DUPLICATE
+INV-00241,Jones and Sons,DUPLICATE
+INV-00242,Larson-Holloway,MATCHED
+INV-00243,Gonzales-Harrison,AMOUNT_MISMATCH
+INV-00244,Lyons-Bender,MATCHED
+INV-00245,"Fernandez, Kim and George",MATCHED
+INV-00246,Navarro-Munoz,MATCHED
+INV-00247,Davis Ltd,DUPLICATE
+INV-00248,"Matthews, Smith and Hubbard",MATCHED
+INV-00249,Johnston-Hines,DUPLICATE
+INV-00250,Ruiz Ltd,SPLIT_PAYMENT
+INV-00251,Moon-White,MATCHED
+INV-00252,"Graham, Olsen and Costa",MATCHED
+INV-00253,Bailey-Cook,TIMING_DIFFERENCE
+INV-00254,"Garcia, Martin and Jenkins",SPLIT_PAYMENT
+INV-00255,Roberts-Landry,MATCHED
+INV-00256,"Johnson, Miller and King",MATCHED
+INV-00257,Cordova Group,DUPLICATE
+INV-00258,"Bryan, Smith and Booth",MATCHED
+INV-00259,Gutierrez-Lopez,MATCHED
+INV-00260,Dean-Jimenez,TIMING_DIFFERENCE
+INV-00261,Wolf-Harris,SPLIT_PAYMENT
+INV-00262,"Anderson, Roberts and Gilmore",MATCHED
+INV-00263,Martinez-Dudley,MATCHED
+INV-00264,"Lloyd, Mckinney and Collins",MATCHED
+INV-00265,Tran Inc,MISSING_PAYMENT
+INV-00266,Gay Inc,AMOUNT_MISMATCH
+INV-00267,Valentine-Holland,MATCHED
+INV-00268,Jimenez Ltd,TIMING_DIFFERENCE
+INV-00269,Hicks-Hill,MATCHED
+INV-00270,Baird-Sanchez,AMOUNT_MISMATCH
+INV-00271,"Thomas, Lee and Greene",TIMING_DIFFERENCE
+INV-00272,"Suarez, Shields and Hill",MATCHED
+INV-00273,Morgan-French,MATCHED
+INV-00274,Hoover-Campbell,MATCHED
+INV-00275,Monroe-Carpenter,SPLIT_PAYMENT
+INV-00276,"Burns, Hernandez and Ryan",SPLIT_PAYMENT
+INV-00277,Cook-Hines,MATCHED
+INV-00278,Gibson-Morris,MATCHED
+INV-00279,Pollard and Sons,TIMING_DIFFERENCE
+INV-00280,"Reyes, Chase and Jenkins",DUPLICATE
+INV-00281,Garner-Thornton,MATCHED
+INV-00282,Hughes-Alvarado,MATCHED
+INV-00283,"Pollard, Simpson and Johnson",MATCHED
+INV-00284,"Sanford, Rivera and Garcia",MATCHED
+INV-00285,Garcia-Lozano,TIMING_DIFFERENCE
+INV-00286,Bowen Group,DUPLICATE
+INV-00287,"Booker, Jones and Harrington",MISSING_PAYMENT
+INV-00288,Morgan-Schwartz,TIMING_DIFFERENCE
+INV-00289,"Miller, Murphy and Craig",MATCHED
+INV-00290,"James, Stewart and Higgins",MISSING_PAYMENT
+INV-00291,Brennan-Johnson,TIMING_DIFFERENCE
+INV-00292,Young Ltd,MATCHED
+INV-00293,Bright-Francis,SPLIT_PAYMENT
+INV-00294,Good-Hodges,AMOUNT_MISMATCH
+INV-00295,"Brennan, Wallace and Benson",MATCHED
+INV-00296,Williams Inc,MATCHED
+INV-00297,Howard-Jordan,MATCHED
+INV-00298,Schmidt PLC,MISSING_PAYMENT
+INV-00299,"Sparks, Jackson and Miller",AMOUNT_MISMATCH
+INV-00300,Harvey-Allen,MATCHED
+INV-00301,"Thomas, Murray and King",MISSING_PAYMENT
+INV-00302,Estrada-Nolan,MATCHED
+INV-00303,Santana-Byrd,SPLIT_PAYMENT
+INV-00304,Jones LLC,SPLIT_PAYMENT
+INV-00305,"Evans, Hayden and Vaughn",MATCHED
+INV-00306,Bruce-Gonzalez,MATCHED
+INV-00307,Castaneda-Rodriguez,MATCHED
+INV-00308,Armstrong-Andrews,DUPLICATE
+INV-00309,"Phillips, Spence and Barrett",DUPLICATE
+INV-00310,Smith-Grimes,DUPLICATE
+INV-00311,"Beltran, Lozano and Mcgee",TIMING_DIFFERENCE
+INV-00312,Parsons-Hall,MATCHED
+INV-00313,Robinson-Lee,MATCHED
+INV-00314,Byrd-Le,MATCHED
+INV-00315,"Becker, Taylor and Davis",DUPLICATE
+INV-00316,"Lucas, Parker and Alexander",MATCHED
+INV-00317,"Diaz, Anderson and Browning",MATCHED
+INV-00318,Burgess-Thompson,SPLIT_PAYMENT
+INV-00319,Buchanan LLC,MATCHED
+INV-00320,"Shaw, Nelson and Martin",TIMING_DIFFERENCE
+INV-00321,Coffey-Phillips,MATCHED
+INV-00322,Brock-Mcdonald,MATCHED
+INV-00323,Taylor and Sons,AMOUNT_MISMATCH
+INV-00324,"Ramsey, Whitney and Coffey",MATCHED
+INV-00325,"Diaz, Gibbs and Smith",MISSING_PAYMENT
+INV-00326,"Martinez, Richardson and Curry",TIMING_DIFFERENCE
+INV-00327,Richards-Carson,TIMING_DIFFERENCE
+INV-00328,Rodriguez-Hall,MATCHED
+INV-00329,Harvey PLC,MATCHED
+INV-00330,Herman-Walker,MISSING_PAYMENT
+INV-00331,Reid Group,MATCHED
+INV-00332,"Turner, Ortiz and Taylor",MATCHED
+INV-00333,Torres Group,AMOUNT_MISMATCH
+INV-00334,Davis PLC,MATCHED
+INV-00335,Price LLC,MATCHED
+INV-00336,"Avery, Horton and Fernandez",AMOUNT_MISMATCH
+INV-00337,"Newton, Moore and Perry",MISSING_PAYMENT
+INV-00338,Bass PLC,MATCHED
+INV-00339,Crosby-Ramirez,DUPLICATE
+INV-00340,"Wood, Ramos and Sampson",MATCHED
+INV-00341,Garcia-Jennings,AMOUNT_MISMATCH
+INV-00342,"Winters, Newman and Brown",MISSING_PAYMENT
+INV-00343,Lopez-Martinez,MATCHED
+INV-00344,Davis-Lewis,MATCHED
+INV-00345,"Harper, Smith and Buchanan",MATCHED
+INV-00346,Zhang PLC,DUPLICATE
+INV-00347,Jones PLC,MATCHED
+INV-00348,Willis and Sons,MISSING_PAYMENT
+INV-00349,Schroeder-Kramer,MATCHED
+INV-00350,"Smith, Garrison and Thomas",DUPLICATE
+INV-00351,Fernandez and Sons,MISSING_PAYMENT
+INV-00352,Guerrero Inc,MATCHED
+INV-00353,Smith and Sons,MATCHED
+INV-00354,"Morris, Thompson and Williams",MISSING_PAYMENT
+INV-00355,"Fisher, Wilson and Brown",MISSING_PAYMENT
+INV-00356,Strickland-Palmer,MATCHED
+INV-00357,Hayes and Sons,MATCHED
+INV-00358,"Williams, Logan and Camacho",MATCHED
+INV-00359,"Turner, Schneider and Johnson",MATCHED
+INV-00360,Boone-Simmons,TIMING_DIFFERENCE
+INV-00361,Henry Group,DUPLICATE
+INV-00362,Lam LLC,SPLIT_PAYMENT
+INV-00363,"Hernandez, Martinez and Weber",AMOUNT_MISMATCH
+INV-00364,"Kelley, Nguyen and Vang",MATCHED
+INV-00365,"Phillips, Wagner and Jordan",MATCHED
+INV-00366,"Wilson, Pena and Rich",AMOUNT_MISMATCH
+INV-00367,"Le, Lewis and Hayes",MATCHED
+INV-00368,Gutierrez Group,MATCHED
+INV-00369,Perry-Davis,DUPLICATE
+INV-00370,Edwards-Scott,AMOUNT_MISMATCH
+INV-00371,Mcdaniel Group,MATCHED
+INV-00372,Davis Inc,DUPLICATE
+INV-00373,Reynolds Ltd,SPLIT_PAYMENT
+INV-00374,"Watson, Anderson and Brown",DUPLICATE
+INV-00375,"Hoffman, Santiago and Jenkins",TIMING_DIFFERENCE
+INV-00376,"Pugh, Henderson and Moon",MATCHED
+INV-00377,Schmitt PLC,MATCHED
+INV-00378,Bell-Lane,MATCHED
+INV-00379,Moore Group,MATCHED
+INV-00380,Boone LLC,TIMING_DIFFERENCE
+INV-00381,"Richardson, Farmer and Andrews",MATCHED
+INV-00382,Bruce-Villegas,SPLIT_PAYMENT
+INV-00383,"Austin, Day and Johnson",MATCHED
+INV-00384,"Gallegos, Adams and White",MATCHED
+INV-00385,"Farmer, Dorsey and Bell",MATCHED
+INV-00386,Kane PLC,SPLIT_PAYMENT
+INV-00387,"Morales, Thomas and Schultz",MATCHED
+INV-00388,Davis PLC,DUPLICATE
+INV-00389,Bennett Group,DUPLICATE
+INV-00390,Moore-Collins,MATCHED
+INV-00391,Frank-Bradley,MATCHED
+INV-00392,Ware and Sons,AMOUNT_MISMATCH
+INV-00393,Webster Inc,SPLIT_PAYMENT
+INV-00394,"Miller, Ramos and Coleman",MISSING_PAYMENT
+INV-00395,"Ramos, Nelson and Fischer",MISSING_PAYMENT
+INV-00396,Reed Inc,AMOUNT_MISMATCH
+INV-00397,Gregory-Watkins,TIMING_DIFFERENCE
+INV-00398,"Estrada, Williams and Foster",MATCHED
+INV-00399,"Brown, Harris and Dougherty",SPLIT_PAYMENT
+INV-00400,Duran LLC,SPLIT_PAYMENT
+INV-00401,Wilson-Jimenez,TIMING_DIFFERENCE
+INV-00402,Thompson-James,DUPLICATE
+INV-00403,"Hall, Hansen and Barnett",MATCHED
+INV-00404,Jones-Hensley,MATCHED
+INV-00405,Graham Group,AMOUNT_MISMATCH
+INV-00406,Atkins PLC,MATCHED
+INV-00407,Berry-Mckinney,SPLIT_PAYMENT
+INV-00408,Roberts-Sullivan,DUPLICATE
+INV-00409,Jackson-Meza,MATCHED
+INV-00410,Collier-Gillespie,MISSING_PAYMENT
+INV-00411,Kim Inc,MATCHED
+INV-00412,Graham Group,MATCHED
+INV-00413,"Miller, Harrell and Reese",AMOUNT_MISMATCH
+INV-00414,Cook and Sons,SPLIT_PAYMENT
+INV-00415,Dixon Inc,MATCHED
+INV-00416,"Hicks, Bullock and Bailey",SPLIT_PAYMENT
+INV-00417,"Mullen, Brewer and Hernandez",MATCHED
+INV-00418,Thomas and Sons,MATCHED
+INV-00419,Morrison Ltd,MATCHED
+INV-00420,Thompson Ltd,MATCHED
+INV-00421,Marshall-Elliott,DUPLICATE
+INV-00422,"Cole, Glass and Cunningham",SPLIT_PAYMENT
+INV-00423,"Downs, Morris and Maddox",MATCHED
+INV-00424,Hernandez-Jones,MATCHED
+INV-00425,Welch-Hogan,AMOUNT_MISMATCH
+INV-00426,"Brown, Romero and Collins",MATCHED
+INV-00427,Johnson-Wood,AMOUNT_MISMATCH
+INV-00428,Jones-Lin,MATCHED
+INV-00429,Gilbert PLC,MATCHED
+INV-00430,Ford-Spencer,MATCHED
+INV-00431,"Huang, Cole and Pacheco",MATCHED
+INV-00432,"Lopez, Jacobs and Mason",MATCHED
+INV-00433,Hayes LLC,MATCHED
+INV-00434,"Miller, Lucas and Williams",MATCHED
+INV-00435,"Kim, Gonzales and Mills",DUPLICATE
+INV-00436,Cox LLC,MATCHED
+INV-00437,Ortiz-Morgan,MATCHED
+INV-00438,"Williams, Mccoy and Cook",MATCHED
+INV-00439,Davis-Gregory,MATCHED
+INV-00440,King-York,MISSING_PAYMENT
+INV-00441,"Marks, Cook and Aguilar",MATCHED
+INV-00442,Rangel LLC,SPLIT_PAYMENT
+INV-00443,"Hale, Myers and Larson",MATCHED
+INV-00444,Collins Group,MATCHED
+INV-00445,"Conner, Li and Santiago",MATCHED
+INV-00446,"Osborn, Gaines and Davis",MATCHED
+INV-00447,"Henderson, Cox and Cox",MISSING_PAYMENT
+INV-00448,Bean LLC,DUPLICATE
+INV-00449,Lee-Cooke,MATCHED
+INV-00450,Jones Inc,MATCHED
+INV-00451,"Wise, Conley and Stephenson",MATCHED
+INV-00452,Stanley PLC,MISSING_PAYMENT
+INV-00453,Harper and Sons,MATCHED
+INV-00454,White Ltd,SPLIT_PAYMENT
+INV-00455,"Lamb, Martin and Kim",SPLIT_PAYMENT
+INV-00456,Diaz-Ball,MATCHED
+INV-00457,Bishop-Goodwin,SPLIT_PAYMENT
+INV-00458,Young-Allen,DUPLICATE
+INV-00459,Mckee-Lee,MATCHED
+INV-00460,"Valentine, Joyce and Murray",MATCHED
+INV-00461,Strickland-Shaw,MATCHED
+INV-00462,Burch-Montoya,DUPLICATE
+INV-00463,"Taylor, Wright and Davidson",MATCHED
+INV-00464,Spencer-Garcia,MATCHED
+INV-00465,"Rosales, Mitchell and Hines",MATCHED
+INV-00466,Cole-Palmer,MATCHED
+INV-00467,Davis-Lozano,SPLIT_PAYMENT
+INV-00468,Wilkerson-Arias,MATCHED
+INV-00469,Brown-Shaw,TIMING_DIFFERENCE
+INV-00470,Hughes Inc,SPLIT_PAYMENT
+INV-00471,Walker-Flores,MATCHED
+INV-00472,Combs Ltd,MATCHED
+INV-00473,Moody-Taylor,SPLIT_PAYMENT
+INV-00474,Lowery-Kennedy,MATCHED
+INV-00475,Blake Group,DUPLICATE
+INV-00476,Gilbert-Bullock,MATCHED
+INV-00477,Scott and Sons,TIMING_DIFFERENCE
+INV-00478,"Bentley, Lynch and Henderson",MATCHED
+INV-00479,Young-Martinez,DUPLICATE
+INV-00480,Barnes PLC,SPLIT_PAYMENT
+INV-00481,Brown-Copeland,MATCHED
+INV-00482,Carlson-Smith,TIMING_DIFFERENCE
+INV-00483,"Andrews, Higgins and Carter",DUPLICATE
+INV-00484,Mendez and Sons,MATCHED
+INV-00485,"Butler, Beck and Miller",SPLIT_PAYMENT
+INV-00486,Jones-Fox,MATCHED
+INV-00487,"Hartman, Romero and Smith",MATCHED
+INV-00488,Williams-Hughes,MATCHED
+INV-00489,King-Smith,MATCHED
+INV-00490,Cooper Ltd,SPLIT_PAYMENT
+INV-00491,"Fuller, Ingram and Moss",TIMING_DIFFERENCE
+INV-00492,Anderson-Bell,MISSING_PAYMENT
+INV-00493,Li-Thompson,AMOUNT_MISMATCH
+INV-00494,"Marshall, Dominguez and Welch",MATCHED
+INV-00495,Brown Group,TIMING_DIFFERENCE
+INV-00496,Carter Inc,MISSING_PAYMENT
+INV-00497,Blackwell LLC,MATCHED
+INV-00498,Robertson-Hays,AMOUNT_MISMATCH
+INV-00499,"Kennedy, Johnson and Lucas",SPLIT_PAYMENT
+INV-00500,Kelly-Norman,MATCHED

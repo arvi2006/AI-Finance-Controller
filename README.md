@@ -37,7 +37,7 @@ python -m venv .venv
 
 For Windows:
 
-```text
+```cmd
 .venv\Scripts\activate
 ```
 
@@ -49,13 +49,13 @@ After activation, the terminal should show something similar to:
 
 ### 4. Install dependencies
 
-```text
+```cmd
 pip install -r requirements.txt
 ```
 
 ### 5. Run the complete application
 
-```text
+```cmd
 python run.py
 ```
 
@@ -63,7 +63,7 @@ This runs the seven pipeline stages in order and then launches the Streamlit das
 
 ### 6. Run automated tests
 
-```text
+```cmd
 pytest -v
 ```
 
@@ -73,19 +73,19 @@ The test suite uses deterministic fixtures and mocks Ollama requests, so normal 
 
 Run the pipeline without starting Streamlit:
 
-```text
+```cmd
 python run.py --pipeline
 ```
 
 Launch only the dashboard using the existing generated outputs:
 
-```text
+```cmd
 python run.py --app
 ```
 
 Run the pipeline without the local AI resolver:
 
-```text
+```cmd
 python run.py --pipeline --skip-ai
 ```
 

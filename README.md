@@ -260,6 +260,62 @@ The dashboard provides six operational views:
 
 Dashboard values are loaded dynamically from generated CSV files. The application joins related data by `invoice_id`, handles missing optional outputs with user-facing messages, and does not make Ollama calls.
 
+## Staging and Production
+
+Docker Compose configurations are provided for running the Streamlit dashboard as a containerized service:
+
+- `stage.yaml`: staging dashboard configuration with a writable project mount
+- `prod.yaml`: production-style dashboard configuration with a read-only project mount and explicit Streamlit server settings
+
+Docker Desktop must be installed and running before using these commands.
+
+### Staging
+
+Validate the staging configuration:
+
+```powershell
+docker compose -f stage.yaml config
+```
+
+Start the staging dashboard:
+
+```powershell
+docker compose -f stage.yaml up -d
+```
+
+Open [http://localhost:8501](http://localhost:8501). View logs with `docker compose -f stage.yaml logs -f` and stop the service with `docker compose -f stage.yaml down`.
+
+### Production-style dashboard
+
+Run the pipeline on the host first so it can write the generated CSV outputs:
+
+```powershell
+python run.py --pipeline
+```
+
+Validate and start the production-style dashboard:
+
+```powershell
+docker compose -f prod.yaml config
+docker compose -f prod.yaml up -d
+```
+
+Open [http://localhost:8501](http://localhost:8501). View logs with `docker compose -f prod.yaml logs -f` and stop the service with `docker compose -f prod.yaml down`.
+
+The current production-style container is intentionally dashboard-only. Its project mount is read-only, so do not run the write-producing pipeline inside it. Run `python run.py --pipeline` on the host before starting the container, then restart the container after regenerating outputs.
+
+### Ollama with the pipeline
+
+The AI resolver runs on the host and connects to the local Ollama API. Start Ollama separately before running the pipeline:
+
+```powershell
+ollama serve
+ollama pull qwen2.5:1.5b
+python run.py --pipeline
+```
+
+If Ollama is unavailable, the resolver records investigated cases as human review according to the existing failure-handling behavior. The dashboard itself does not call Ollama.
+
 ## Dashboard
 
 The Streamlit dashboard provides a visual interface for monitoring the AI Finance Controller pipeline.

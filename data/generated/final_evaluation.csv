@@ -1,2 +1,2 @@
 total_records,baseline_correct,baseline_accuracy,ai_correct,ai_accuracy,accuracy_delta,baseline_exceptions,ai_not_investigated,final_exceptions,ai_investigations,ai_auto_resolved,human_review,ai_failures,average_ai_time_seconds,total_ai_time_seconds
-500,458,91.6,459,91.8,0.2,42,495,41,5,4,1,1,27.35,136.73
+500,458,91.6,459,91.8,0.2,42,495,41,5,5,0,0,14.94,74.68

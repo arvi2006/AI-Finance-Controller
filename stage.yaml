@@ -1,0 +1,15 @@
+services:
+  ai-finance-controller:
+    image: python:3.13-slim
+    working_dir: /app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      PYTHONUNBUFFERED: "1"
+    command: >-
+      sh -c "pip install --no-cache-dir -r requirements.txt &&
+      streamlit run app.py --server.address 0.0.0.0
+      --server.port 8501 --server.headless true"
+    restart: unless-stopped
